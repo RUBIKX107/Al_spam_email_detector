@@ -1,22 +1,15 @@
 # Al_spam_email_detector
----
+# Spam Email Detector AI
 
-## **4️⃣ Upload your notebook**
-- Save your Colab notebook as `.ipynb` → `spam_detector.ipynb`.  
-- Make sure **all cells run correctly** and include the probability-enhanced `check_email()` function.  
+This project is a **machine learning tool to classify emails as spam or not spam**, built using Python and scikit-learn. It’s a mini cybersecurity AI project designed for practical learning.
 
----
+## Features
+- Detect spam and ham emails.
+- Outputs probability of spam for better decision making.
+- Built with a Naive Bayes classifier and Bag-of-Words vectorization.
+- Easy to run in Google Colab or locally.
 
-## **5️⃣ Optional: Add a small demo**
-You can create a small Python script (`demo.py`) to test a few emails quickly:
-
-```python
-from spam_detector import check_email
-
-emails = [
-    "You won $10,000! Click here to claim your prize.",
-    "Please send me the updated project report."
-]
-
-for e in emails:
-    print(check_email(e))
+## Installation
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/spam-email-detector.git
