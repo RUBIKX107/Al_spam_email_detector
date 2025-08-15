@@ -1,1 +1,22 @@
 # Al_spam_email_detector
+---
+
+## **4️⃣ Upload your notebook**
+- Save your Colab notebook as `.ipynb` → `spam_detector.ipynb`.  
+- Make sure **all cells run correctly** and include the probability-enhanced `check_email()` function.  
+
+---
+
+## **5️⃣ Optional: Add a small demo**
+You can create a small Python script (`demo.py`) to test a few emails quickly:
+
+```python
+from spam_detector import check_email
+
+emails = [
+    "You won $10,000! Click here to claim your prize.",
+    "Please send me the updated project report."
+]
+
+for e in emails:
+    print(check_email(e))
